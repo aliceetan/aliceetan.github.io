@@ -1,0 +1,21 @@
+# Site settings
+
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
+title: Alice Tan | Profile
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://aliceetan.github.io"
+description: A personal website.
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
+
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: 
+theme-projects: 
+
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
+include: [_data]
