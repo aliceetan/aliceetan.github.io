@@ -11,10 +11,8 @@ comments: false
 ## This is me 
 * love tea and cookies
 
-{% capture images %}
     ![Image of Alice]
     /assets/img/Profile-pic.png
-{% endcapture %}
 
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
