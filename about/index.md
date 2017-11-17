@@ -11,5 +11,5 @@ comments: false
 ## This is me 
 * love tea and cookies
 
-    Image of Alice](/assets/img/Profile-pic.png)
+    [Image of Alice](/assets/img/Profile-pic.png)
 
