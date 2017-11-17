@@ -11,5 +11,10 @@ comments: false
 ## This is me 
 * love tea and cookies
 
-    [Image of Alice](https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Profile-pic.jpg)
+    [Image of Alice]
+    
+    (https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Profile-pic.jpg)
+    ![Figure 1-1](https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Profile-pic.jpg)
+   
+    
 
