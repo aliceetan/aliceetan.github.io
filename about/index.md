@@ -13,7 +13,7 @@ comments: false
 
 {% capture images %}
     ![Image of Alice]
-    assets/img/Profile-pic.png
+    /assets/img/Profile-pic.png
 {% endcapture %}
 
 
