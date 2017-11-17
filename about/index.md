@@ -8,10 +8,21 @@ comments: false
     
 <center>I am a junior at Pomona College majoring in computer science and economics. While CS is my main focus at school, I have developed a strong interest in psychology and health/wellness. What really fascinates me within the world of computer science is the social impact of technology and how we as a community are influenced by its developments. I also love talking to people so reach out if you want to chat about anything ! </center>
 
-## This is me 
-* love tea and cookies
-
-    ![Figure 1](https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Profile-pic.jpg =200x200)
+## Gallery 
+<p> 
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice1.jpg" width = "216" height = "383.4"  />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice2.jpg" width = "100" height = "250" />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice3.jpg" width = "300" height = "225" />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice4.jpg" width="180" height="306" />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/dimsum.jpg" width = "200" height = "354" />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Will1.jpg" width="170" height="302" />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice7.JPG" width="150" height="266" />
+    <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice6.jpg" width="200" height="112.5" />
+   
+    
+    
+</p>
+    
    
     
 
