@@ -11,10 +11,5 @@ comments: false
 ## This is me 
 * love tea and cookies
 
-    ![Image of Alice]
-    /assets/img/Profile-pic.png
+    Image of Alice](/assets/img/Profile-pic.png)
 
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
