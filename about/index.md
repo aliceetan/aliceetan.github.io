@@ -10,7 +10,7 @@ comments: false
 
 ## Gallery 
 <p> 
-    <img src="../assets/img/Alice1.jpg" width="216" height="383.4" />
+    <img src="../assets/img/Alice1.jpg" width="216" />
     <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice2.jpg?raw=true" width = "100" height = "250" />
     <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice3.jpg?raw=true" width = "300" height = "225" />
     <img src="https://github.com/aliceetan/aliceetan.github.io/blob/master/assets/img/Alice4.jpg?raw=true" width="180" height="306" />
