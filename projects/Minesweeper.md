@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Minesweeper"
 date:   2017-12-20
 excerpt: "Play Minesweeper on Android Phone"
