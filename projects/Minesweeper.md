@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "Minesweeper"
-date:   2017-12-20
-excerpt: "Play Minesweeper on Android Phone"
+date:   2016-04-06
+excerpt: "Minesweeper for Android Phone"
 project: true
+feature: /projects/Minesweeper.png
 tag:
-- Android 
+- jekyll
+- Android
 comments: true
 ---
 
-View [project](https://github.com/aliceetan/Minesweeper)
-      
+
+<center>View project [here](https://github.com/aliceetan/Minesweeper)</center>
