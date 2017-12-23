@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Minesweeper"
-date:   2016-04-06
+date:   2017-12-23
 excerpt: "Minesweeper for Android Phone"
 project: true
 feature: /projects/Minesweeper.png
