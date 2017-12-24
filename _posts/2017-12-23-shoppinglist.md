@@ -11,5 +11,7 @@ tag:
 comments: true
 ---
 
-<center>View project <a href=
+<center>Make shopping a breeze ! Ability to add item and price, categorize, and check off purchased goods.
+<br/>
+View project <a href=
 "https://github.com/aliceetan/ShoppingList">here</a></center>

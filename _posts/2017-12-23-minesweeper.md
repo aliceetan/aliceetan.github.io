@@ -11,4 +11,6 @@ tag:
 comments: true
 ---
 
-<center>View project <a href= "https://github.com/aliceetan/Minesweeper">here</a></center>
+<center> Play Minesweeper on Android Phone ! Hint information ability and graphics.
+<br/>
+View project <a href= "https://github.com/aliceetan/Minesweeper">here</a></center>
