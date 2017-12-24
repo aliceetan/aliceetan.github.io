@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Minesweeper"
+title:  "Shopping List"
 date:   2017-12-23
-excerpt: "Minesweeper for Android Phone"
+excerpt: "Shopping List App for Android Phone"
 project: true
 feature: /projects/fruit.jpg
 tag:
