@@ -12,4 +12,4 @@ comments: true
 ---
 
 <center>View project <a href=
-"https://github.com/aliceetan/ShoppingList">here</href></center>
+"https://github.com/aliceetan/ShoppingList">here</a></center>
