@@ -11,4 +11,5 @@ tag:
 comments: true
 ---
 
-<center>View project [here](https://github.com/aliceetan/ShoppingList)</center>
+<center>View project <a href=
+"https://github.com/aliceetan/ShoppingList">here</href></center>
