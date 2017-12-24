@@ -12,5 +12,7 @@ comments: true
 ---
 <center>Limit food waste and find your groove in the kitchen with Pantry Rescue. Enter in some
 ingredients and get a list of recipes using them. Make a recipe and share to a bulletin board with
-other users. Done in collaboration with Sarah Jin and Kim Pham.</center>
-<center>View project [here](https://github.com/aliceetan/Minesweeper)</center>
+other users. Done in collaboration with Sarah Jin and Kim Pham.
+<br/>
+View project <a href=
+"https://github.com/aliceetan/PantryRescue">here</a></center>
