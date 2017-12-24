@@ -11,4 +11,4 @@ tag:
 comments: true
 ---
 
-<center>View project [here](https://github.com/aliceetan/Minesweeper)</center>
+<center>View project [here] (https://github.com/aliceetan/Minesweeper)</center>
