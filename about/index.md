@@ -1,16 +1,11 @@
 ---
 layout: page
 title: About Me
-tags: [Alice, is, really, cool]
+tags: [Alice, is, cool]
 date: 2017-11-17
 comments: false
 ---
-    
-<center>I am a junior at Pomona College majoring in computer science and economics. While CS is my main focus at school, I have developed a strong interest in psychology and health/wellness. What really fascinates me within the world of computer science is the social impact of technology and how we as a community are influenced by its developments. I also love talking to people so reach out if you want to chat about anything ! </center>
 
-[Check out my resume here](https://github.com/aliceetan/aliceetan.github.io/blob/master/about/AliceTan_TechResume2017.pdf?raw=true)
+<center>I am a senior at Pomona College majoring in computer science minoring in economics and mathematics. What really fascinates me about computer science is the social impact of technology and how we as a community are influenced by its advancements. I am actively seeking opportunities to develop a design mindset that incorporates both aspects of accessibility and efficiency. Outside of computer science, I am interested in psychology, particularly in clinical, health, and social psychology. During my free time I enjoy cooking, sitting in coffee shops and hiking!</center>
 
-
-    
-   
-  
+<center> Check out my resume [here](https://github.com/aliceetan/aliceetan.github.io/blob/master/about/AliceTan_TechResume2018.pdf?raw=true)</center>
