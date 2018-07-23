@@ -10,4 +10,4 @@ comments: false
 
 <center> Check out my resume
 <a href=
-"https://github.com/aliceetan/aliceetan.github.io/blob/master/about/AliceTan_TechResume2018.pdf?raw=true">here</a></center>
+"/about/AliceTan_TechResume2018.pdf" target="_blank">here</a></center>
