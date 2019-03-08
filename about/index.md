@@ -8,6 +8,10 @@ comments: false
 
 <center>I am a senior at Pomona College majoring in computer science minoring in economics and mathematics. What really fascinates me about computer science is the social impact of technology and how we as a community are influenced by its advancements. I am actively seeking opportunities to develop a design mindset that incorporates both aspects of accessibility and efficiency. Outside of computer science, I am interested in psychology, particularly in clinical, health, and social psychology. During my free time I enjoy cooking, sitting in coffee shops and hiking!</center>
 
+<<<<<<< HEAD
 <center> Check out my resume
 <a href=
 "https://github.com/aliceetan/aliceetan.github.io/raw/master/about/to/AliceTan_TechResume2018.pdf">here</a></center>
+=======
+<center> Check out my resume <a href="/about/AliceTan_TechResume2018.pdf" target="_blank">here</a></center>
+>>>>>>> e6edcc6d9ed7ebb39c5923ab8c4f8160917b6436
