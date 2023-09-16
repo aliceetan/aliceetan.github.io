@@ -1,3 +1,1 @@
-Technical Portfolio
-
-Portfolio to show current and past projects.
+A personal website aliceetan.github.io/
