@@ -6,7 +6,12 @@ date: 2017-11-17
 comments: false
 ---
 
-<center>I am a senior at Pomona College majoring in computer science minoring in economics and mathematics. What really fascinates me about computer science is the social impact of technology and how we as a community are influenced by its advancements. I am actively seeking opportunities to develop a design mindset that incorporates both aspects of accessibility and efficiency. Outside of computer science, I am interested in psychology, particularly in clinical, health, and social psychology. During my free time I enjoy cooking, sitting in coffee shops and hiking!</center>
+<center>Hello! My name is Alice and I am a full stack software engineer based in New York City. I currently work at Amazon on the Virtual Try On team, where I'm building experiences that help users make more informed purchasing decisions through virtual try on. I'm passionate about making the tech industry more enjoyable and inclusive, always exploring ways to use technology to enhance human interactions.
 
+I also serve on the Associate Board of <a href="https://Upchieve.org/" target="_blank">Upchieve</a>, a non-profit Ed-Tech org that seeks to democratize access to educational support through free online tutoring and college counseling.</center>
+  
+<center>When I'm not typing away on my laptop, I enjoy reading, running, and spending time with my friends.</center>
+
+<center>Let's connect! I love meeting new people :)</center>
 
 <center> Check out my resume <a href="/about/Alice_Resume.pdf" target="_blank">here</a></center>
