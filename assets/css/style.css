@@ -1,0 +1,288 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  margin: 0;
+  background:rgb(249, 231, 232);
+}
+  
+h1, h2, h3 {
+  font-family: 'Fira Code', monospace;
+  margin: 0.5rem 0;
+}
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-family: 'Fira Code', monospace;
+}
+  
+/* About page - photo and text side by side, centered */
+.about-page {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  min-height: 80vh;         /* almost full viewport height */
+  padding: 2rem;
+}
+
+.about-page .intro {
+  display: flex;
+  flex-direction: row;       /* side by side */
+  align-items: center;       /* vertical alignment */
+  gap: 3rem;
+  justify-content: center;   /* center horizontally in the viewport */
+}
+
+/* Wiggle animation */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(3deg); }
+  40% { transform: rotate(-3deg); }
+  60% { transform: rotate(2deg); }
+  80% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.about-page .portrait {
+  width: 300px;
+  border-radius: 12px;
+  animation: shake 0.8s ease-in-out 1; /* fast and cute, runs once */
+  transform-origin: center;            /* rotate around the center */
+}
+
+.about-page .bio {
+  max-width: 500px;
+  font-family: 'Fira Code', monospace;
+}
+
+.about-page .bio h2 {
+  font-size: 1.4rem;
+}
+
+.about-page .bio p {
+  font-size: 1.0rem;
+  text-align: left;
+  line-height: 1.6;
+  color: #111;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-page .intro {
+    flex-direction: column; /* stack on small screens */
+    text-align: center;
+  }
+
+  .about-page .bio {
+    max-width: 100%;
+  }
+}
+
+/* Centered header */
+.centered-header {
+  display: flex;
+  flex-direction: column;   /* stack title and nav */
+  align-items: center;      /* center horizontally */
+  padding: 2rem 0;
+}
+
+.centered-header .logo {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.nav-center {
+  list-style: none;
+  display: flex;
+  gap: 2rem;               /* space between tabs */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #111;
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+}
+
+.nav-center a:hover {
+  color: #e06f7b;          /* subtle accent on hover */
+}
+
+/* Center page titles under the header */
+main h2 {
+  text-align: center;        
+  font-family: 'Fira Code', monospace; /* code-like aesthetic */
+  font-size: 2rem;            /* slightly smaller */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+  
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project-card {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* ---------- Photography Page ---------- */
+.photography-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Filter buttons */
+.photo-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: none;
+  border: 2px solid #111;
+  padding: 0.5rem 1rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  border-radius: 6px;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #e06f7b; /* subtle accent color */
+  color: #fff;
+  border-color: #e06f7b;
+  transform: scale(1.05); /* slight hover pop */
+}
+
+/* Photo grid */
+.photo-grid {
+  column-count: 3;       /* Number of columns (adjust as needed) */
+  column-gap: 1rem;      /* Space between columns */
+}
+
+.photo-card {
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;           /* Let images scale to column width */
+  break-inside: avoid;   /* Prevents images from being cut */
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .photo-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .photo-grid {
+    column-count: 1;
+  }
+}
+
+.photo-card img:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
+.category-btn.active {
+  background-color: #333;
+  color: white;
+}
+
+/* Contact */
+
+.social-icons {
+  display: flex;
+  justify-content: center;   /* center all icons horizontally */
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.social-icons a svg {
+  width: 32px;
+  height: 32px;
+  color: #111;               /* default icon color */
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icons a:hover svg {
+  transform: scale(1.2);     /* slightly enlarge on hover */
+  color: #e06f7b;            /* accent color on hover */
+}
+
+
+/* ---------- Substack Page Styling ---------- */
+.substack-link-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: rgb(249, 231, 232);
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.substack-link-card h3 {
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 0.5rem;
+}
+
+.substack-link-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #e06f7b;
+  text-decoration: none;
+  font-weight: bold;
+}
+.substack-link-card a:hover {
+  color: #c05662;
+}

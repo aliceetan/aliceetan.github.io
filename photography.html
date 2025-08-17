@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alice Tan - Photography</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="centered-header">
+    <h1 class="logo">Alice Tan</h1>
+    <nav>
+      <ul class="nav-center">
+        <li><a href="index.html">About</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="substack.html">Substack</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="photography-page">
+    <h2>Photography</h2>
+
+    <!-- Filter buttons -->
+    <div class="photo-filters">
+      <button class="filter-btn" data-category="travel">Travel</button>
+      <button class="filter-btn" data-category="people">People</button>
+      <button class="filter-btn" data-category="fun">Fun</button>
+    </div>
+
+    <!-- Photo grid (JS will populate dynamically) -->
+    <div id="photo-grid" class="photo-grid"></div>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
