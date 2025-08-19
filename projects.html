@@ -6,6 +6,21 @@
   <title>Projects - Alice Tan</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    .typing {
+      display: inline-block;
+      border-right: 2px solid black;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="centered-header">
@@ -23,24 +38,37 @@
 
   <main class="projects-page">
     <h2>Technical Projects</h2>
-    <p style="text-align: center; font-family: 'Fira Code', monospace; font-size: 1.2rem; color: #333;">
-      Coming soon...
+    <p id="typing-text" style="text-align: center; font-family: 'Fira Code', monospace; font-size: 1.2rem; color: #333;">
     </p>
-    <!-- <section class="projects-grid">
-      <div class="project-card">
-        <img src="assets/images/project1-screenshot.png" alt="Project 1 Screenshot">
-        <h3>Project One</h3>
-        <p>A web app that does XYZ. Built with React, Node.js, and MongoDB.</p>
-        <a href="#" target="_blank">View on GitHub</a>
-      </div>
-
-      <div class="project-card">
-        <img src="assets/images/project2-screenshot.png" alt="Project 2 Screenshot">
-        <h3>Project Two</h3>
-        <p>A mobile app for ABC. Built with Flutter and Firebase.</p>
-        <a href="#" target="_blank">View on GitHub</a>
-      </div>
-    </section> -->
   </main>
+
+  <script>
+    const text = "Coming soon...";
+    let i = 0;
+    let deleting = false;
+    const speed = 100;      // typing speed
+    const delay = 1200;     // pause before deleting
+    const typingElement = document.getElementById("typing-text");
+
+    function typeLoop() {
+      if (!deleting && i <= text.length) {
+        typingElement.innerHTML = `<span class="typing">${text.substring(0, i)}</span>`;
+        i++;
+        setTimeout(typeLoop, speed);
+      } else if (deleting && i >= 0) {
+        typingElement.innerHTML = `<span class="typing">${text.substring(0, i)}</span>`;
+        i--;
+        setTimeout(typeLoop, speed / 1.5);
+      } else if (i > text.length) {
+        deleting = true;
+        setTimeout(typeLoop, delay);
+      } else if (i < 0) {
+        deleting = false;
+        setTimeout(typeLoop, speed);
+      }
+    }
+
+    window.onload = typeLoop;
+  </script>
 </body>
 </html>
